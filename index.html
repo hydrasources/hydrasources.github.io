@@ -35,43 +35,137 @@
         color: #ffffff;
         margin-bottom: 30px;
     }
+    .toggle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .toggle {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        margin: 0 10px;
+    }
+    .toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #2d2d2d;
+        transition: .4s;
+        border-radius: 34px;
+        border: 2px solid #4a4a4a;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+    input:checked + .slider {
+        background-color: #3d3d3d;
+    }
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+    .lang-label {
+        font-size: 16px;
+        user-select: none;
+    }
 </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hydrasources</h1>
-        <p>Торрент-ссылки для приложения "Hydra Launcher"</p>
-        <button id="installBtn" class="btn">Установить в Гидру</button>
-        <button id="copyBtn" class="btn">Скопировать ссылку</button>
+        <div class="toggle-container">
+            <span class="lang-label" id="enLabel">EN</span>
+            <label class="toggle">
+                <input type="checkbox" id="langToggle">
+                <span class="slider"></span>
+            </label>
+            <span class="lang-label" id="ruLabel">RU</span>
+        </div>
+        <h1 id="title">Hydrasources</h1>
+        <p id="text">Torrent links for Hydra Launcher</p>
+        <button id="installBtn" class="btn">Install to Hydra</button>
+        <button id="copyBtn" class="btn">Copy Link</button>
     </div>
 
     <script>
         const installBtn = document.getElementById('installBtn');
         const copyBtn = document.getElementById('copyBtn');
+        const title = document.getElementById('title');
+        const langToggle = document.getElementById('langToggle');
+        const enLabel = document.getElementById('enLabel');
+        const ruLabel = document.getElementById('ruLabel');
         const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
         let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
+
+
+        const texts = {
+            en: {
+                title: "Hydra Link",
+				text: "Torrent links for Hydra Launcher",
+                install: "Install to Hydra",
+                copy: "Copy Link",
+                copied: "Link copied to clipboard!",
+                installError: "Installation link is not set yet."
+            },
+            ru: {
+                title: "Ссылка Гидры",
+				text: "Торрент-ссылки Hydra Launcher",
+                install: "Установить в Гидру",
+                copy: "Скопировать ссылку",
+                copied: "Ссылка скопирована в буфер обмена!",
+                installError: "Ссылка для установки еще не установлена."
+            }
+        };
+
+        function setLanguage(isRussian) {
+            const lang = isRussian ? 'ru' : 'en';
+            title.textContent = texts[lang].title;
+            text.textContent = texts[lang].text;
+            installBtn.textContent = texts[lang].install;
+            copyBtn.textContent = texts[lang].copy;
+            enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
+            ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
+        }
+
+        langToggle.addEventListener('change', (e) => {
+            setLanguage(e.target.checked);
+        });
 
         installBtn.addEventListener('click', () => {
             if (installLink) {
                 window.location.href = installLink;
             } else {
-                alert('Ссылка для установки еще не установлена.');
+                alert(langToggle.checked ? texts.ru.installError : texts.en.installError);
             }
         });
 
         copyBtn.addEventListener('click', () => {
             navigator.clipboard.writeText(copyLink).then(() => {
-                alert('Ссылка скопирована в буфер обмена!');
+                alert(langToggle.checked ? texts.ru.copied : texts.en.copied);
             }).catch(err => {
-                console.error('Ошибка при копировании: ', err);
+                console.error('Error copying: ', err);
             });
         });
 
-        // Функция для установки ссылки для кнопки "Установить в Гидру"
         function setInstallLink(link) {
             installLink = link;
         }
-
-        // Пример использования: setInstallLink('https://example.com/install');
     </script>
 </body></html>
