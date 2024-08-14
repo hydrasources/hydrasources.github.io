@@ -106,12 +106,36 @@
             "uploadDate": "2024-08-13T00:00:00.000Z"
         },
         {
-            "title": "Dungeons of Sundaria",
+            "title": "Dungeons of Sundaria v1.0.0.53789",
             "uris": [
                 "magnet:?xt=urn:btih:ZW34JSTOQGH236ERSCQOWSEAA6FUTOJN&dn=DungeonsofSundaria&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"
             ],
             "fileSize": "7.84 GB",
             "uploadDate": "2024-08-14T00:00:00.000Z"
-        }
+        },
+        {
+            "title": "Dome Keeper v4.0.4",
+            "uris": [
+                "magnet:?xt=urn:btih:BQSSL5LCCHXE2CHH6SDVS5VJA4QVPDWB&dn=Dome%20Keeper&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann"
+            ],
+            "fileSize": "1.56 GB",
+            "uploadDate": "2024-08-13T00:00:00.000Z"
+        },
+        {
+            "title": "Rosots of Pacha v1.2.0",
+            "uris": [
+                "magnet:?xt=urn:btih:ZW34JSTOQGH236ERSCQOWSEAA6FUTOJN&dn=DungeonsofSundaria&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"
+            ],
+            "fileSize": "5.17 GB",
+            "uploadDate": "2024-08-12T00:00:00.000Z"
+        },
+        {
+            "title": "Intravenous playtest v0.1",
+            "uris": [
+                "magnet:?xt=urn:btih:SXRLXTHWJGBGBAE6AB7T6Q3GE5GHOFIT&dn=Intravenous-2-v0.1&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A1337%2Fannounce"
+            ],
+            "fileSize": "319,6 MB",
+            "uploadDate": "2023-12-20T00:00:00.000Z"
+        },
     ]
 }
