@@ -1,0 +1,187 @@
+<html><head><base href="https://webgpt.io/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hydra Link Page</title>
+<style>
+    body {
+        background-color: #1c1c1c;
+        color: #e0e0e0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        text-align: center;
+    }
+    .btn {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        border: 2px solid #4a4a4a;
+        border-radius: 25px;
+        padding: 15px 30px;
+        margin: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .btn:hover {
+        background-color: #3d3d3d;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    h1 {
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+    .toggle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .toggle {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        margin: 0 10px;
+    }
+    .toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #2d2d2d;
+        transition: .4s;
+        border-radius: 34px;
+        border: 2px solid #4a4a4a;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+    input:checked + .slider {
+        background-color: #3d3d3d;
+    }
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+    .lang-label {
+        font-size: 16px;
+        user-select: none;
+    }
+	
+    .telegram-icon {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="toggle-container">
+            <span class="lang-label" id="enLabel">EN</span>
+            <label class="toggle">
+                <input type="checkbox" id="langToggle">
+                <span class="slider"></span>
+            </label>
+            <span class="lang-label" id="ruLabel">RU</span>
+        </div>
+        <h1 id="title">Hydrasources</h1>
+        <p id="text">Torrent links for Hydra Launcher</p>
+        <button id="installBtn" class="btn">Install to Hydra</button>
+        <button id="copyBtn" class="btn">Copy Link</button>
+    </div>
+	
+	    <a href="https://t.me/hydrasources" target="_blank">
+        <svg class="telegram-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="12" fill="#FFFFFF"/>
+            <path d="M5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" fill="#29B6F6"/>
+        </svg>
+    </a>
+
+    <script>
+        const installBtn = document.getElementById('installBtn');
+        const copyBtn = document.getElementById('copyBtn');
+        const title = document.getElementById('title');
+        const langToggle = document.getElementById('langToggle');
+        const enLabel = document.getElementById('enLabel');
+        const ruLabel = document.getElementById('ruLabel');
+        const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
+        let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
+
+
+        const texts = {
+            en: {
+                title: "Hydrasources",
+		text: "Torrent links for Hydra Launcher",
+                install: "Install to Hydra",
+                copy: "Copy Link",
+                copied: "Link copied to clipboard!",
+                installError: "Installation link is not set yet."
+            },
+            ru: {
+                title: "Hydrasources",
+		text: "Торрент-ссылки для Hydra Launcher",
+                install: "Установить в Гидру",
+                copy: "Скопировать ссылку",
+                copied: "Ссылка скопирована в буфер обмена!",
+                installError: "Ссылка для установки еще не установлена."
+            }
+        };
+
+        function setLanguage(isRussian) {
+            const lang = isRussian ? 'ru' : 'en';
+            title.textContent = texts[lang].title;
+            text.textContent = texts[lang].text;
+            installBtn.textContent = texts[lang].install;
+            copyBtn.textContent = texts[lang].copy;
+            enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
+            ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
+        }
+
+        langToggle.addEventListener('change', (e) => {
+            setLanguage(e.target.checked);
+        });
+
+        installBtn.addEventListener('click', () => {
+            if (installLink) {
+                window.location.href = installLink;
+            } else {
+                alert(langToggle.checked ? texts.ru.installError : texts.en.installError);
+            }
+        });
+
+        copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(copyLink).then(() => {
+                alert(langToggle.checked ? texts.ru.copied : texts.en.copied);
+            }).catch(err => {
+                console.error('Error copying: ', err);
+            });
+        });
+
+        function setInstallLink(link) {
+            installLink = link;
+        }
+    </script>
+</body></html>
