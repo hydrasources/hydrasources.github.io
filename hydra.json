@@ -546,12 +546,20 @@
             "uploadDate": "2024-08-19T00:00:00.000Z"
         },
         {
-            "title": "Black Myth: Wu Kong",
+            "title": "Black Myth: Wukong",
             "uris": [
-                "https:\/\/t.me\/hydrasources"
+                "https://t.me/hydrasources"
             ],
             "fileSize": "soon",
-            "uploadDate": "2000-01-01T00:00:00.000Z"
+            "uploadDate": "2024-08-22T00:00:00.000Z"
+        },
+        {
+            "title": "Beach Club Simulator 2024",
+            "uris": [
+                "magnet:?xt=urn:btih:D9AE87892C092A11924301D64AB2A651FA616604&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Beach%20Club%20Simulator%202024%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%5D%20(2024%2C%20Simulation)%20(1.0)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.52 GB",
+            "uploadDate": "2024-08-17T13:58:00.000Z"
         }
     ]
 }
