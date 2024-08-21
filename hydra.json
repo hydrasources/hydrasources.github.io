@@ -122,7 +122,7 @@
             "uploadDate": "2024-08-13T00:00:00.000Z"
         },
         {
-            "title": "Rosots of Pacha v1.2.0",
+            "title": "Roots of Pacha v1.2.0",
             "uris": [
                 "magnet:?xt=urn:btih:ZW34JSTOQGH236ERSCQOWSEAA6FUTOJN&dn=DungeonsofSundaria&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"
             ],
@@ -146,7 +146,7 @@
             "uploadDate": "2024-08-11T00:00:00.000Z"
         },
         {
-            "title": " Car Manufacture v.1.0.1c",
+            "title": "Car Manufacture v.1.0.1c",
             "uris": [
                 "magnet:?xt=urn:btih:NHWYUK5IBHSZIJ6LSX335WHNDZISONI7&dn=Car%20Manufacture&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
             ],
@@ -298,7 +298,7 @@
             "uploadDate": "2023-02-21T00:00:00.000Z"
         },
         {
-            "title": "Garbage Truck Simulator ",
+            "title": "Garbage Truck Simulator",
             "uris": [
                 "magnet:?xt=urn:btih:LQOGVQ5E7LLN45TDHSHBWBMMCIG4VICH&dn=Garbage.Truck.Simulator-TENOKE&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann"
             ],
@@ -548,7 +548,7 @@
         {
             "title": "Black Myth: Wukong",
             "uris": [
-                "https://t.me/hydrasources"
+                "https:\/\/t.me\/hydrasources"
             ],
             "fileSize": "soon",
             "uploadDate": "2024-08-22T00:00:00.000Z"
@@ -560,6 +560,54 @@
             ],
             "fileSize": "1.52 GB",
             "uploadDate": "2024-08-17T13:58:00.000Z"
+        },
+        {
+            "title": "Sunset Hills",
+            "uris": [
+                "magnet:?xt=urn:btih:E7F621B2A83EA233A46CC507965C62BDD9DD7739&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Sunset%20Hills%20%5BP%5D%20%5BENG%20%2B%202%5D%20(2024%2C%20Adventure)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.08 GB",
+            "uploadDate": "2024-08-21T18:33:00.000Z"
+        },
+        {
+            "title": "Dustborn",
+            "uris": [
+                "magnet:?xt=urn:btih:8106BCD672F7AB6089BCC2D83EC61FD4E444EB11&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Dustborn%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%20%2F%20ENG%5D%20(2024%2C%20Adventure)%20(1.2)%20%5BScene%5D"
+            ],
+            "fileSize": "12.31 GB",
+            "uploadDate": "2024-08-20T20:02:00.000Z"
+        },
+        {
+            "title": "Phantom Spark",
+            "uris": [
+                "magnet:?xt=urn:btih:2CCAAA5501263335CB34988C549898ED17BA152A&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Phantom%20Spark%20%5BP%5D%20%5BENG%20%2B%209%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20(1.0.0%3A3004%20%2B%201%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "4.32 GB",
+            "uploadDate": "2024-08-18T17:20:00.000Z"
+        },
+        {
+            "title": "Qazaq: Son of the Sun",
+            "uris": [
+                "magnet:?xt=urn:btih:5C4752B1C22C4C4D46B9EA9AF87A1FF6E688A7DF&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Qazaq%3A%20Son%20of%20the%20Sun%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%208%20%2F%20RUS%20%2B%20ENG%5D%20(2024%2C%20FPS)%20%5BPortable%5D"
+            ],
+            "fileSize": "633.8 MB",
+            "uploadDate": "2024-08-18T15:49:00.000Z"
+        },
+        {
+            "title": "House of Golf 2",
+            "uris": [
+                "magnet:?xt=urn:btih:767AC60092E50E9EFDC45512F4FFCB5B1D7E9C60&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20House%20of%20Golf%202%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%2018%5D%20(2024%2C%20Arcade)%20(1.0.0.2)%20%5BGOG%5D"
+            ],
+            "fileSize": "19.31 GB",
+            "uploadDate": "2024-08-17T23:24:00.000Z"
+        },
+        {
+            "title": "Arco",
+            "uris": [
+                "magnet:?xt=urn:btih:D52049A3257ECD757D02F7B80251966DCC82EDA7&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Arco%20%5BP%5D%20%5BENG%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "1.34 GB",
+            "uploadDate": "2024-08-16T14:29:00.000Z"
         }
     ]
 }
