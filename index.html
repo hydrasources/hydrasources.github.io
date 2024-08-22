@@ -123,97 +123,92 @@
     </a>
 
     <script>
-        const installBtn = document.getElementById('installBtn');
-        const copyBtn = document.getElementById('copyBtn');
-        const title = document.getElementById('title');
-        const langToggle = document.getElementById('langToggle');
-        const enLabel = document.getElementById('enLabel');
-        const ruLabel = document.getElementById('ruLabel');
-        const dateElement = document.getElementById('date');
-        const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
-        let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
+const installBtn = document.getElementById('installBtn');
+const copyBtn = document.getElementById('copyBtn');
+const title = document.getElementById('title');
+const langToggle = document.getElementById('langToggle');
+const enLabel = document.getElementById('enLabel');
+const ruLabel = document.getElementById('ruLabel');
+const dateElement = document.getElementById('date');
+const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
+let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
 
-        const texts = {
-            en: {
-                title: "Hydrasources",
-                text: "Torrent links for Hydra Launcher",
-                update: "Last updated: ",
-                install: "Install to Hydra",
-                copy: "Copy Link",
-                copied: "Link copied to clipboard!",
-                installError: "Installation link is not set yet."
-            },
-            ru: {
-                title: "Hydrasources",
-                text: "Торрент-ссылки для Hydra Launcher",
-                update: "Последнее обновление: ",
-                install: "Установить в Гидру",
-                copy: "Скопировать ссылку",
-                copied: "Ссылка скопирована в буфер обмена!",
-                installError: "Ссылка для установки еще не установлена."
-            }
-        };
+const texts = {
+    en: {
+        title: "Hydrasources",
+        text: "Torrent links for Hydra Launcher",
+        update: "Last updated: ",
+        install: "Install to Hydra",
+        copy: "Copy Link",
+        copied: "Link copied to clipboard!",
+        installError: "Installation link is not set yet."
+    },
+    ru: {
+        title: "Hydrasources",
+        text: "Торрент-ссылки для Hydra Launcher",
+        update: "Последнее обновление: ",
+        install: "Установить в Гидру",
+        copy: "Скопировать ссылку",
+        copied: "Ссылка скопирована в буфер обмена!",
+        installError: "Ссылка для установки еще не установлена."
+    }
+};
 
-        function setLanguage(isRussian) {
-            const lang = isRussian ? 'ru' : 'en';
-            const date = new Date(dateElement.dataset.year, dateElement.dataset.month - 1, dateElement.dataset.date);
-            const formattedDate = isRussian
-                ? `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`
-                : `${String(date.getMonth() + 1).padStart(2, '0')}/${String(date.getDate()).padStart(2, '0')}/${date.getFullYear()}`;
-            title.textContent = texts[lang].title;
-            text.textContent = texts[lang].text;
-            dateElement.textContent = formattedDate;
-            installBtn.textContent = texts[lang].install;
-            copyBtn.textContent = texts[lang].copy;
-            enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
-            ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
-        }
+function setLanguage(isRussian) {
+    const lang = isRussian ? 'ru' : 'en';
+    title.textContent = texts[lang].title;
+    document.getElementById('text').textContent = texts[lang].text;
+    installBtn.textContent = texts[lang].install;
+    copyBtn.textContent = texts[lang].copy;
+    enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
+    ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
+}
 
-        langToggle.addEventListener('change', (e) => {
-            setLanguage(e.target.checked);
-        });
+langToggle.addEventListener('change', (e) => {
+    setLanguage(e.target.checked);
+});
 
-        installBtn.addEventListener('click', () => {
-            if (installLink) {
-                window.location.href = installLink;
+installBtn.addEventListener('click', () => {
+    if (installLink) {
+        window.location.href = installLink;
+    } else {
+        alert(langToggle.checked ? texts.ru.installError : texts.en.installError);
+    }
+});
+
+copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(copyLink).then(() => {
+        alert(langToggle.checked ? texts.ru.copied : texts.en.copied);
+    }).catch(err => {
+        console.error('Error copying: ', err);
+    });
+});
+
+function setInstallLink(link) {
+    installLink = link;
+}
+
+function fetchGitHubDate() {
+    fetch('https://api.github.com/repos/hydrasources/hydrasources.github.io/commits?path=hydra.json')
+        .then(response => response.json())
+        .then(commits => {
+            if (commits.length > 0) {
+                const latestCommit = commits[0];
+                const commitDate = new Date(latestCommit.commit.committer.date);
+                const formattedDate = `${String(commitDate.getMonth() + 1).padStart(2, '0')}/${String(commitDate.getDate()).padStart(2, '0')}/${commitDate.getFullYear()}`;
+                dateElement.textContent = formattedDate;
             } else {
-                alert(langToggle.checked ? texts.ru.installError : texts.en.installError);
+                dateElement.textContent = 'No commits found';
             }
+        })
+        .catch(error => {
+            console.error('Error fetching commit date:', error);
+            dateElement.textContent = 'Error loading date';
         });
+}
 
-        copyBtn.addEventListener('click', () => {
-            navigator.clipboard.writeText(copyLink).then(() => {
-                alert(langToggle.checked ? texts.ru.copied : texts.en.copied);
-            }).catch(err => {
-                console.error('Error copying: ', err);
-            });
-        });
-
-        function setInstallLink(link) {
-            installLink = link;
-        }
-
-        // Fetch date from the provided URL
-        function fetchDate() {
-            fetch('http://ars3nb.temp.swtest.ru/hydra/time/')
-                .then(response => response.json())
-                .then(data => {
-                    // Store date components in data attributes for later use
-                    dateElement.dataset.date = data.date;
-                    dateElement.dataset.month = data.month;
-                    dateElement.dataset.year = data.year;
-                    
-                    // Initially set language to English
-                    setLanguage(false);
-                })
-                .catch(error => {
-                    console.error('Error fetching date:', error);
-                    dateElement.textContent = 'Error loading date';
-                });
-        }
-
-        // Fetch the date when the page loads
-        fetchDate();
+// Fetch the commit date when the page loads
+fetchGitHubDate();
 
     </script>
 </body>
