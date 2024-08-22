@@ -109,15 +109,14 @@
         </div>
         <h1 id="title">Hydrasources</h1>
         <p id="text">Torrent links for Hydra Launcher</p>
-        <p id="update">Last Updated: 08/19/24</p>
+        <p id="update">Last Updated: <span id="date">Loading...</span></p>
         <button id="installBtn" class="btn">Install to Hydra</button>
         <button id="copyBtn" class="btn">Copy Link</button>
     </div>
-	
-	    <a href="https://t.me/hydrasources" target="_blank">
+
+    <a href="https://t.me/hydrasources" target="_blank">
         <svg class="telegram-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="12" fill="#FFFFFF"/>
-            <path d="M5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" fill="#29B6F6"/>
+            <!-- SVG content -->
         </svg>
     </a>
 
@@ -128,15 +127,15 @@
         const langToggle = document.getElementById('langToggle');
         const enLabel = document.getElementById('enLabel');
         const ruLabel = document.getElementById('ruLabel');
+        const dateElement = document.getElementById('date');
         const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
         let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
-
 
         const texts = {
             en: {
                 title: "Hydrasources",
-		text: "Torrent links for Hydra Launcher",
-		update: "Last updated: 08/19/24",
+                text: "Torrent links for Hydra Launcher",
+                update: "Last updated: ",
                 install: "Install to Hydra",
                 copy: "Copy Link",
                 copied: "Link copied to clipboard!",
@@ -144,8 +143,8 @@
             },
             ru: {
                 title: "Hydrasources",
-		text: "Торрент-ссылки для Hydra Launcher",
-		update: "Последнее обновление: 19/08/24",
+                text: "Торрент-ссылки для Hydra Launcher",
+                update: "Последнее обновление: ",
                 install: "Установить в Гидру",
                 copy: "Скопировать ссылку",
                 copied: "Ссылка скопирована в буфер обмена!",
@@ -155,9 +154,13 @@
 
         function setLanguage(isRussian) {
             const lang = isRussian ? 'ru' : 'en';
+            const date = new Date(dateElement.dataset.year, dateElement.dataset.month - 1, dateElement.dataset.date);
+            const formattedDate = isRussian
+                ? `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`
+                : `${String(date.getMonth() + 1).padStart(2, '0')}/${String(date.getDate()).padStart(2, '0')}/${date.getFullYear()}`;
             title.textContent = texts[lang].title;
             text.textContent = texts[lang].text;
-            update.textContent = texts[lang].update;
+            dateElement.textContent = formattedDate;
             installBtn.textContent = texts[lang].install;
             copyBtn.textContent = texts[lang].copy;
             enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
@@ -187,5 +190,28 @@
         function setInstallLink(link) {
             installLink = link;
         }
+
+        // Fetch date from the provided URL
+        function fetchDate() {
+            fetch('http://ars3nb.temp.swtest.ru/hydra/time.php')
+                .then(response => response.json())
+                .then(data => {
+                    // Store date components in data attributes for later use
+                    dateElement.dataset.date = data.date;
+                    dateElement.dataset.month = data.month;
+                    dateElement.dataset.year = data.year;
+                    
+                    // Initially set language to English
+                    setLanguage(false);
+                })
+                .catch(error => {
+                    console.error('Error fetching date:', error);
+                    dateElement.textContent = 'Error loading date';
+                });
+        }
+
+        // Fetch the date when the page loads
+        fetchDate();
+
     </script>
 </body></html>
