@@ -3,6 +3,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Source for Hydra Launcher</title>
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
 <style>
     body {
         background-color: #1c1c1c;
@@ -121,8 +125,7 @@
             <path d="M5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" fill="#29B6F6"/>
         </svg>
     </a>
-
-    <script>
+<script>
 const installBtn = document.getElementById('installBtn');
 const copyBtn = document.getElementById('copyBtn');
 const title = document.getElementById('title');
@@ -130,6 +133,7 @@ const langToggle = document.getElementById('langToggle');
 const enLabel = document.getElementById('enLabel');
 const ruLabel = document.getElementById('ruLabel');
 const dateElement = document.getElementById('date');
+const updateElement = document.getElementById('update');
 const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
 let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
 
@@ -141,7 +145,8 @@ const texts = {
         install: "Install to Hydra",
         copy: "Copy Link",
         copied: "Link copied to clipboard!",
-        installError: "Installation link is not set yet."
+        installError: "Installation link is not set yet.",
+        pageTitle: "Source for Hydra Launcher"  // English title for the webpage
     },
     ru: {
         title: "Hydrasources",
@@ -150,7 +155,8 @@ const texts = {
         install: "Установить в Гидру",
         copy: "Скопировать ссылку",
         copied: "Ссылка скопирована в буфер обмена!",
-        installError: "Ссылка для установки еще не установлена."
+        installError: "Ссылка для установки еще не установлена.",
+        pageTitle: "Источник для Hydra Launcher"  // Russian title for the webpage
     }
 };
 
@@ -160,8 +166,25 @@ function setLanguage(isRussian) {
     document.getElementById('text').textContent = texts[lang].text;
     installBtn.textContent = texts[lang].install;
     copyBtn.textContent = texts[lang].copy;
+    updateElement.textContent = texts[lang].update; // Update the "Last updated" text
     enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
     ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
+    langToggle.checked = isRussian;
+    
+    // Change the title of the page
+    document.title = texts[lang].pageTitle;
+
+    // Re-fetch and format the date based on the selected language
+    fetchGitHubDate(lang);
+}
+
+function detectUserLanguage() {
+    const userLang = navigator.language || navigator.userLanguage;
+    if (userLang.startsWith('ru')) {
+        setLanguage(true);  // Set to Russian
+    } else {
+        setLanguage(false); // Set to English
+    }
 }
 
 langToggle.addEventListener('change', (e) => {
@@ -188,28 +211,41 @@ function setInstallLink(link) {
     installLink = link;
 }
 
-function fetchGitHubDate() {
+function fetchGitHubDate(lang) {
     fetch('https://api.github.com/repos/hydrasources/hydrasources.github.io/commits?path=hydra.json')
         .then(response => response.json())
         .then(commits => {
             if (commits.length > 0) {
                 const latestCommit = commits[0];
-                const commitDate = new Date(latestCommit.commit.committer.date);
-                const formattedDate = `${String(commitDate.getMonth() + 1).padStart(2, '0')}/${String(commitDate.getDate()).padStart(2, '0')}/${commitDate.getFullYear()}`;
-                dateElement.textContent = formattedDate;
+                if (latestCommit) {
+                    const commitDate = new Date(latestCommit.commit.committer.date);
+                    
+                    // Format the date based on the selected language
+                    const formattedDate = lang === 'ru'
+                        ? `${commitDate.getDate().toString().padStart(2, '0')}/${commitDate.getMonth().toString().padStart(2, '0')}/${commitDate.getFullYear().toString().padStart(4, '0')}`
+                        : `${commitDate.getMonth().toString().padStart(2, '0')}/${commitDate.getDate().toString().padStart(2, '0')}/${commitDate.getFullYear().toString().padStart(4, '0')}`;
+                    
+                    // Update the text of the updateElement
+                    updateElement.textContent = lang === 'ru' ? `Последнее обновление: ${formattedDate}` : `Last updated: ${formattedDate}`;
+                    
+                    dateElement.textContent = formattedDate;
+                } else {
+                    dateElement.textContent = lang === 'ru' ? 'Нет коммитов' : 'No commits found';
+                }
             } else {
-                dateElement.textContent = 'No commits found';
+                dateElement.textContent = lang === 'ru' ? 'Нет коммитов' : 'No commits found';
             }
         })
         .catch(error => {
             console.error('Error fetching commit date:', error);
-            dateElement.textContent = 'Error loading date';
+            dateElement.textContent = lang === 'ru' ? 'Ошибка загрузки даты' : 'Error loading date';
         });
 }
 
-// Fetch the commit date when the page loads
-fetchGitHubDate();
 
-    </script>
+// Automatically detect and set the language when the page loads
+detectUserLanguage();
+</script>
+
 </body>
 </html>
