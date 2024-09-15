@@ -816,6 +816,30 @@
             ],
             "fileSize": "6.92 GB",
             "uploadDate": "2024-09-13T16:33:00.000Z"
+        },
+        {
+            "title": "Star Wars Jedi: Survivor",
+            "uris": [
+                "magnet:?xt=urn:btih:F842CC6572EB379227E5E3A03BDA9EC055477C01&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Star%20Wars%20Jedi%3A%20Survivor%20%5BP%5D%20%5BENG%20%2B%2011%20%2F%20ENG%20%2B%207%5D%20(2023%2C%20TPS)%20(Patch%209%20%2B%202%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "129.8 GB",
+            "uploadDate": "2024-09-13T11:41:00.000Z"
+        },
+        {
+            "title": "Hollowbody",
+            "uris": [
+                "magnet:?xt=urn:btih:B3388D5B77E89C5D3826492D0A7E0B7152E0F108&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Hollowbody%20%5BL%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20Horror)%20(g1.3)%20%5BGOG%5D"
+            ],
+            "fileSize": "7.32 GB",
+            "uploadDate": "2024-09-13T02:37:00.000Z"
+        },
+        {
+            "title": "Wallpaper Engine 2.5.28 by xetrin",
+            "uris": [
+                "https:\/\/pixeldrain.com\/u\/3Bd4Nurw"
+            ],
+            "fileSize": "161 MB",
+            "uploadDate": "2024-09-15T21:16:00.000Z"
         }
     ]
 }
