@@ -994,12 +994,12 @@
             "uploadDate": "2024-09-18T14:29:00.000Z"
         },
         {
-            "title": "The Plucky Squire",
+            "title": "The Plucky Squire v1.11",
             "uris": [
-                "magnet:?xt=urn:btih:7EE67F1C338BD3DD073322AE365EF1BAD5EBE6EA&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Plucky%20Squire%20%2F%20%D0%9E%D1%82%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B0%D0%B6%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%20%2F%20RUS%20%2B%20ENG%20%2B%209%5D%20(2024%2C%20Arcade)%20(1.10.3)%20%5BScene%5D"
+                "magnet:?xt=urn:btih:4AA4DF34CC997313822177B21494911A85848278&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Plucky%20Squire%20%2F%20%D0%9E%D1%82%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B0%D0%B6%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%20%2F%20RUS%20%2B%20ENG%20%2B%209%5D%20(2024%2C%20Arcade)%20(1.11)%20%5BP2P%5D"
             ],
-            "fileSize": "22.74 GB",
-            "uploadDate": "2024-09-18T17:29:00.000Z"
+            "fileSize": "14.9 GB",
+            "uploadDate": "2024-09-23T07:39:00.000Z"
         },
         {
             "title": "Starstruck: Hands of Time",
@@ -1191,7 +1191,23 @@
                 "magnet:?xt=urn:btih:ZYFY2MSS2ER4CFOMA7RASHKCQJP7BEJT&dn=Paint%20the%20Town%20Red&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
             ],
             "fileSize": "6.87 GB",
-            "uploadDate": "2024-09-23T22:41:00.000Z"
+            "uploadDate": "2024-03-15T20:34:00.000Z"
+        },
+        {
+            "title": "Samuel Sage: The Mystery at Penby Inn",
+            "uris": [
+                "magnet:?xt=urn:btih:C4F3E2C8348F0469FC5946428DBDC466BF56F3F3&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Samuel%20Sage%3A%20The%20Mystery%20at%20Penby%20Inn%20%5BP%5D%20%5BENG%20%2B%20JPN%20%2B%201%5D%20(2024%2C%20VN)%20%5BPortable%5D"
+            ],
+            "fileSize": "2.24 GB",
+            "uploadDate": "2024-09-22T16:38:00.000Z"
+        },
+        {
+            "title": "Spiral",
+            "uris": [
+                "magnet:?xt=urn:btih:5C5A1143DA11F4EA3254A964AADCA2D9212BC58C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Spiral%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%206%20%2F%20ENG%20%2B%201%5D%20(2024%2C%20Adventure)%20(20240920PC-01%20%2B%201%20DLC)%20%5BScene%5D"
+            ],
+            "fileSize": "18.81 GB",
+            "uploadDate": "2024-09-23T04:05:00.000Z"
         }
     ]
 }
