@@ -1026,12 +1026,12 @@
             "uploadDate": "2024-09-19T18:57:00.000Z"
         },
         {
-            "title": "God of War Ragnarök",
+            "title": "God of War Ragnarök v1.2",
             "uris": [
-                "magnet:?xt=urn:btih:649D4074E5B0768D2A959DAED0136D4E47D0A4EE&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20God%20of%20War%3A%20Ragnar%C3%B6k%20(Ragnarok)%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2022%20%2F%20RUS%20%2B%20ENG%20%2B%2010%5D%20(2024%2C%20TPS)%20(Build%2015752266)%20%5BPortable%5D"
+                "magnet:?xt=urn:btih:B984D9DDE2DDC0AF3BE94E67DCDB332B4FBA32AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20God%20of%20War%3A%20Ragnar%C3%B6k%20(Ragnarok)%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2022%20%2F%20RUS%20%2B%20ENG%5D%20(2024%2C%20TPS)%20(1.2)%20%5BP2P%5D"
             ],
-            "fileSize": "175.77 GB",
-            "uploadDate": "2024-09-19T21:13:00.000Z"
+            "fileSize": "73.45 GB",
+            "uploadDate": "2024-09-23T12:06:00.000Z"
         },
         {
             "title": "Shogun Showdown",
@@ -1256,6 +1256,126 @@
             ],
             "fileSize": "1.19 GB",
             "uploadDate": "2023-10-30T02:22:00.000Z"
+        },
+        {
+            "title": "Dungeon Tycoon",
+            "uris": [
+                "magnet:?xt=urn:btih:6262273FDAF32BBF6A5741102134D8F6A8853DB2&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Dungeon%20Tycoon%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20RTS)%20%5BGOG%5D"
+            ],
+            "fileSize": "206.9 MB",
+            "uploadDate": "2024-09-26T11:38:00.000Z"
+        },
+        {
+            "title": "Bloomtown: A Different Story",
+            "uris": [
+                "magnet:?xt=urn:btih:F78EEBCCA752871F8F8716D754CAE95612D6FCB8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Bloomtown%3A%20A%20Different%20Story%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%207%5D%20(2024%2C%20RPG%2C%20jRPG)%20%5BScene%5D"
+            ],
+            "fileSize": "1.6 GB",
+            "uploadDate": "2024-09-26T11:49:00.000Z"
+        },
+        {
+            "title": "63 Days",
+            "uris": [
+                "magnet:?xt=urn:btih:0BC4560970F132589878BFBB99C7CC3BB86CBFEA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%2063%20Days%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%20%2F%20ENG%20%2B%20POL%5D%20(2024%2C%20RTS)%20(11147)%20%5BScene%5D"
+            ],
+            "fileSize": "6.83 GB",
+            "uploadDate": "2024-09-26T21:58:00.000Z"
+        },
+        {
+            "title": "Mechabellum v1.0.0.4.1366",
+            "uris": [
+                "magnet:?xt=urn:btih:B253D6EA96DC586CE852F3921A0C5A8534F28E2C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Mechabellum%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%5D%20(2024%2C%20Simulation)%20(1.0.0.4.1366)%20%5BScene%5D"
+            ],
+            "fileSize": "12.33 GB",
+            "uploadDate": "2024-09-26T22:51:00.000Z"
+        },
+        {
+            "title": "Night Slashers: Remake v1.0.1.2",
+            "uris": [
+                "magnet:?xt=urn:btih:0C42CA23051319218E4566C3355703507BC48B90&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Night%20Slashers%3A%20Remake%20%5BL%5D%20%5BENG%20%2B%209%5D%20(1993%2C%202024%2C%20Arcade)%20(1.0.1.2)%20%5BGOG%5D"
+            ],
+            "fileSize": "1.26 GB",
+            "uploadDate": "2024-09-26T23:46:00.000Z"
+        },
+        {
+            "title": "Beyond Shadowgate v1.0.0.3",
+            "uris": [
+                "magnet:?xt=urn:btih:F9792015C9FE9D4555456236EF1ECF5A053000C9&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Beyond%20Shadowgate%20%5BL%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20Adventure)%20(1.0.0.3)%20%5BGOG%5D"
+            ],
+            "fileSize": "424.9 MB",
+            "uploadDate": "2024-09-27T00:52:00.000Z"
+        },
+        {
+            "title": "Iron Meat",
+            "uris": [
+                "magnet:?xt=urn:btih:75A27A9EB562F3094152C395D92CDF67F40D5017&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Iron%20Meat%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "450.1 MB",
+            "uploadDate": "2024-09-27T00:56:00.000Z"
+        },
+        {
+            "title": "Alchemist: The Potion Monger",
+            "uris": [
+                "magnet:?xt=urn:btih:77CE9A3ED05C76311D2FB6F3E6CA718A9FA06DA5&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Alchemist%3A%20The%20Potion%20Monger%20%5BP%5D%20%5BENG%20%2B%206%20%2F%20ENG%5D%20(2024%2C%20Simulation)%20%5BScene%5D"
+            ],
+            "fileSize": "1.81 GB",
+            "uploadDate": "2024-09-27T13:09:00.000Z"
+        },
+        {
+            "title": "Dawn Of Insolence",
+            "uris": [
+                "magnet:?xt=urn:btih:50564A7CF37AE4FAA583A06DEE9D9E8054FF1F4A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Dawn%20Of%20Insolence%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.52 GB",
+            "uploadDate": "2024-09-27T13:52:00.000Z"
+        },
+        {
+            "title": "Murder On Space Station 52 v1.13.4",
+            "uris": [
+                "magnet:?xt=urn:btih:55626ECFA74CE66E09333AEDF3CD0F8997E2D5F8&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Murder%20On%20Space%20Station%2052%20%5BL%5D%20%5BENG%20%2B%204%20%2F%20ENG%5D%20(2024%2C%20Adventure)%20(1.13.4)%20%5BGOG%5D"
+            ],
+            "fileSize": "2.07 GB",
+            "uploadDate": "2024-09-27T14:13:00.000Z"
+        },
+        {
+            "title": "Beyond Hanwell",
+            "uris": [
+                "magnet:?xt=urn:btih:E41D521177E0330260A741A6358105952E85150E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Beyond%20Hanwell%20%5BP%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20Horror)%20%5BScene%5D"
+            ],
+            "fileSize": "59.54 GB",
+            "uploadDate": "2024-09-27T19:50:00.000Z"
+        },
+        {
+            "title": "Cyberpunk 2077 [2.13 + 4 DLC]",
+            "uris": [
+                "magnet:?xt=urn:btih:94DF37024935B247E9959F15FFC104F2B73F7345&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Cyberpunk%202077%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2016%20%2F%20RUS%20%2B%20ENG%5D%20(2020%2C%20RPG)%20(2.13%20%2B%204%20DLC)%20%5BHD%20Reworked%20Project%2C%20Mod%5D"
+            ],
+            "fileSize": "78.58 GB",
+            "uploadDate": "2024-09-12T19:20:00.000Z"
+        },
+        {
+            "title": "Resident Evil 4 Ultimate HD Edition v1.1.0",
+            "uris": [
+                "magnet:?xt=urn:btih:QB3BC7BCURC7GSIBUDQZACDXLFHFTBQ7&dn=(%3Dnemos%3D%20Repack)%20Resident%20Evil%204&tr=udp%3A%2F%2Fshubt.net%3A2710"
+            ],
+            "fileSize": "6.77 GB",
+            "uploadDate": "2024-03-12T09:20:00.000Z"
+        },
+        {
+            "title": "God of War v1.0.13",
+            "uris": [
+                "magnet:?xt=urn:btih:4667EC864B462DAA8251AE42C0FC3139A8D02EC6&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20God%20of%20War%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%2016%20%2F%20RUS%20%2B%20ENG%20%2B%209%5D%20(2022%2C%20Action)%20(1.0.13)%20%5BGOG%5D"
+            ],
+            "fileSize": "40.03 GB",
+            "uploadDate": "2024-09-12T21:37:00.000Z"
+        },
+        {
+            "title": "Plank Builders v1.0",
+            "uris": [
+                "magnet:?xt=urn:btih:C1727C2F7D788B1C681310739A1221C753F8D10B"
+            ],
+            "fileSize": "1.64 GB",
+            "uploadDate": "2024-09-27T14:12:00.000Z"
         }
     ]
 }
