@@ -218,12 +218,12 @@
             "uploadDate": "2024-08-03T00:00:00.000Z"
         },
         {
-            "title": "Factory Outlet Simulator v0.1.3",
+            "title": "Factory Outlet Simulator",
             "uris": [
-                "magnet:?xt=urn:btih:VAR7QMSY7TH2JGFTV46VVZQZFETSAGQR&dn=Factory.Outlet.Simulator.v0.1.3.rar&xl=1862205998&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce"
+                "magnet:?xt=urn:btih:A1D81B5BE00D80BBF2C2A39A832F0561EE863B7C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Factory%20Outlet%20Simulator%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2020%5D%20(2024%2C%20Simulation)%20%5BPortable%5D"
             ],
-            "fileSize": "1.73 GB",
-            "uploadDate": "2024-07-22T00:00:00.000Z"
+            "fileSize": "948.1 MB",
+            "uploadDate": "2024-09-28T15:22:00.000Z"
         },
         {
             "title": "Chef Life: A Restaurant Simulator v1.4.0.0",
@@ -1234,12 +1234,12 @@
             "uploadDate": "2024-09-25T18:33:00.000Z"
         },
         {
-            "title": "Tiny Glade v1.8.0a",
+            "title": "Tiny Glade v1.8.5a",
             "uris": [
-                "magnet:?xt=urn:btih:10B59929FAB2CDC1F87D2F41E256DD45F4C94A70&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Tiny%20Glade%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2013%5D%20(2024%2C%20RTS)%20(1.8.0a)%20%5BScene%5D"
+                "magnet:?xt=urn:btih:58366669C33AEFC58444290AC3B5654CF6AD1C4D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Tiny%20Glade%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2013%5D%20(2024%2C%20Simulation)%20(1.8.5a)%20%5BP2P%5D"
             ],
-            "fileSize": " \t      2.07 GB",
-            "uploadDate": "2024-09-25T20:54:00.000Z"
+            "fileSize": "899 MB",
+            "uploadDate": "2024-10-03T22:30:00.000Z"
         },
         {
             "title": "Red Dead Redemption 2 v1.0.1436.28",
@@ -1376,6 +1376,238 @@
             ],
             "fileSize": "1.64 GB",
             "uploadDate": "2024-09-27T14:12:00.000Z"
+        },
+        {
+            "title": "Reynatis v1.0.3 + 6 DLC [Scene]",
+            "uris": [
+                "magnet:?xt=urn:btih:A31A35676D3A71B89646D0C863A54A39600052B6&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Reynatis%20%5BP%5D%20%5BENG%20%2B%20JPN%20%2F%20JPN%5D%20(2024%2C%20RPG)%20(1.0.3%20%2B%206%20DLC)%20%5BScene%5D"
+            ],
+            "fileSize": "8.8 GB",
+            "uploadDate": "2024-09-28T00:30:00.000Z"
+        },
+        {
+            "title": "Dwarven Realms",
+            "uris": [
+                "magnet:?xt=urn:btih:7957448F825706424E7C410860B37E8B7AE4F933&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Dwarven%20Realms%20%5BP%5D%20%5BENG%5D%20(2024%2C%20RPG)%20%5BScene%5D"
+            ],
+            "fileSize": "14.45 GB",
+            "uploadDate": "2024-09-28T10:39:00.000Z"
+        },
+        {
+            "title": "Rogue Citadel",
+            "uris": [
+                "magnet:?xt=urn:btih:AF9D7739FC7163B1298D2A6BD52382B645B321F2&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Rogue%20Citadel%20%5BP%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "1.15 GB",
+            "uploadDate": "2024-09-28T11:06:00.000Z"
+        },
+        {
+            "title": "The Nameless: Slay Dragon",
+            "uris": [
+                "magnet:?xt=urn:btih:F90BD72D67B90C8ADE742ABB306B2E83BB0A9498&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Nameless%3A%20Slay%20Dragon%20%5BP%5D%20%5BENG%20%2B%203%5D%20(2024%2C%20RPG%2C%20jRPG)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.72 GB",
+            "uploadDate": "2024-09-28T11:29:00.000Z"
+        },
+        {
+            "title": "G.I. Joe: Wrath of Cobra",
+            "uris": [
+                "magnet:?xt=urn:btih:D13E31D09D7065E6ED0C111AF645DDDECD46A414&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20G.I.%20Joe%3A%20Wrath%20of%20Cobra%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "591.4 GB",
+            "uploadDate": "2024-09-28T11:49:00.000Z"
+        },
+        {
+            "title": "Metel - Horror Escape v1.01",
+            "uris": [
+                "magnet:?xt=urn:btih:E0B7E7469E05DD5A67B2AF35674827D0B29F0B4E&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Metel%20-%20Horror%20Escape%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2F%20RUS%20%2B%20ENG%5D%20(2020%2C%20Horror)%20(1.01)%20%5BPortable%5D"
+            ],
+            "fileSize": "232 MB",
+            "uploadDate": "2024-07-19T02:10:00.000Z"
+        },
+        {
+            "title": "Alien: Isolation v1.0.4 + 7 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:D2AE002F343662ACD0E98F32219CDFD4D16EB17B&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Alien%3A%20Isolation%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%207%20%2F%20RUS%20%2B%20ENG%20%2B%205%5D%20(2014%2C%20Horror)%20(1.0.4%20%2B%207%20DLC)%20%5BGOG%5D"
+            ],
+            "fileSize": "21.27 GB",
+            "uploadDate": "2024-06-06T23:39:00.000Z"
+        },
+        {
+            "title": "Resident Evil 4 Remake Build 110025382",
+            "uris": [
+                "magnet:?xt=urn:btih:QXELAP4SNWVOH6GOEPVI5ZQXFPVXK5PB&dn=Resident.Evil.4.(2023)-InsaneRamZes&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
+            ],
+            "fileSize": "59.70 GB",
+            "uploadDate": "2023-05-17T00:00:00.000Z"
+        },
+        {
+            "title": "Pneumata v1.05",
+            "uris": [
+                "magnet:?xt=urn:btih:8FE1808FD81937A5483BA41B3CD27E9CBD8AE157&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Pneumata%20%5BL%5D%20%5BENG%20%2B%206%20%2F%20ENG%5D%20(2024%2C%20Horror%2C%20Action%2C%20FPS)%20(1.05)%20%5BGOG%5D"
+            ],
+            "fileSize": "17.61 GB",
+            "uploadDate": "2024-09-29T16:46:00.000Z"
+        },
+        {
+            "title": "Axon TD: Uprising - Tower Defense",
+            "uris": [
+                "magnet:?xt=urn:btih:D166913B44E9CBF63A3E8BFB10B3409E024F3EAC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Axon%20TD%3A%20Uprising%20-%20Tower%20Defense%20%5BP%5D%20%5BENG%20%2B%206%20%2F%20RENG%5D%20(2024%2C%20RTS)%20%5BPortable%5D"
+            ],
+            "fileSize": "3.17 GB",
+            "uploadDate": "0024-09-29T18:07:00.000Z"
+        },
+        {
+            "title": "Rogue Waters v1.0.0.3149",
+            "uris": [
+                "magnet:?xt=urn:btih:CDA3D45733BCD226A8EE142E3BC6D19C3F3B4071&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Rogue%20Waters%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20TBS)%20(1.0.0.3149)%20%5BScene%5D"
+            ],
+            "fileSize": "4.7 GB",
+            "uploadDate": "2024-09-30T19:51:00.000Z"
+        },
+        {
+            "title": "Exographer",
+            "uris": [
+                "magnet:?xt=urn:btih:3D103EAA0A47FB7BBFADB220797A4798240AB80C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Exographer%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%207%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.18 GB",
+            "uploadDate": "2024-10-01T14:48:00.000Z"
+        },
+        {
+            "title": "Beyond Galaxyland",
+            "uris": [
+                "magnet:?xt=urn:btih:8E600D4F6A02AB7A6F11AAE7920942AFFD3BA4FF&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Beyond%20Galaxyland%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%5D%20(2024%2C%20RPG%2C%20Adventure)%20%5BPortable%5D"
+            ],
+            "fileSize": "875.2 MB",
+            "uploadDate": "2024-10-01T14:59:00.000Z"
+        },
+        {
+            "title": "Resident Evil 5 V1.2.0 + 1 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:7CC0EAFDAB7C1D3C3E334B727A9CE3CFCD66D8B7&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BCD%5D%20Resident%20Evil%205%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2F%20RUS%20%2B%20ENG%5D%20(2009%2C%20Horror)%20(1.2.0%20%2B%201%20DLC)%20%5BP2P%5D"
+            ],
+            "fileSize": "3.65 GB",
+            "uploadDate": "2023-11-20T19:25:00.000Z"
+        },
+        {
+            "title": "Zoochosis v1.2.3",
+            "uris": [
+                "magnet:?xt=urn:btih:A42D83C241FDE9E92281A8AD9A94B14423F3D085&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Zoochosis%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%2F%20ENG%5D%20(2024%2C%20Horror)%20(1.2.3)%20%5BPortable%5D"
+            ],
+            "fileSize": "6.52 GB",
+            "uploadDate": "2024-09-30T20:37:00.000Z"
+        },
+        {
+            "title": "Sword Art Online Fractured Daydream",
+            "uris": [
+                "magnet:?xt=urn:btih:810D286BE65DA5CED632AEE08BB92FBAFF423539&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Sword%20Art%20Online%20Fractured%20Daydream%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20JPN%5D%20(2024%2C%20RPG)%20(1.1.0%20%2B%204%20DLC)%20%5BScene%5D"
+            ],
+            "fileSize": "41.66 GB",
+            "uploadDate": "2024-10-01T19:12:00.000Z"
+        },
+        {
+            "title": "The Holy Gosh Darn v1.1.1",
+            "uris": [
+                "magnet:?xt=urn:btih:60F0D64ABEB19FEEA077EC9F9E2F15802C7C62DA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Holy%20Gosh%20Darn%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%20%2F%20ENG%5D%20(2024%2C%20Adventure)%20(1.1.1)%20%5BScene%5D"
+            ],
+            "fileSize": "1.54 GB",
+            "uploadDate": "2024-10-02T09:28:00.000Z"
+        },
+        {
+            "title": "Thyria",
+            "uris": [
+                "magnet:?xt=urn:btih:390F98C64EC42CF2B32A2CECA266AA1007F11D59&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Thyria%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2015%5D%20(2024%2C%20TBS%2C%20RPG)%20%5BScene%5D"
+            ],
+            "fileSize": "1.38 GB",
+            "uploadDate": "2024-10-02T12:56:00.000Z"
+        },
+        {
+            "title": "EcoGnomix",
+            "uris": [
+                "magnet:?xt=urn:btih:957F50E5AEE9255A9733789161FA94F685EE3566&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20EcoGnomix%20%5BL%5D%20%5BENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20TBS)%20%5BGOG%5D"
+            ],
+            "fileSize": "225.9 MB",
+            "uploadDate": "2024-10-02T18:58:00.000Z"
+        },
+        {
+            "title": "Kill Knight v1.0.0.108",
+            "uris": [
+                "magnet:?xt=urn:btih:04B824EB7EF018B21B8BEDF56C04626DC0811484&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Kill%20Knight%20%2F%20%D0%A0%D1%8B%D1%86%D0%B0%D1%80%D1%8C%20%D0%91%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20(1.0.0.108)%20%5BScene%5D"
+            ],
+            "fileSize": "4.21 GB",
+            "uploadDate": "2024-10-02T19:34:00.000Z"
+        },
+        {
+            "title": "Recycling Center Simulator",
+            "uris": [
+                "magnet:?xt=urn:btih:B8E9986C7D36559E7AFCDF510554AE87E67C54BC&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Recycling%20Center%20Simulator%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20Simulation)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.45 GB",
+            "uploadDate": "2024-10-04T14:46:00.000Z"
+        },
+        {
+            "title": "Pinball Spire",
+            "uris": [
+                "magnet:?xt=urn:btih:A33E9B87F843612280AC06408BDB2DE679CA5DC5&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Pinball%20Spire%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "378.6 MB",
+            "uploadDate": "2024-10-04T15:05:00.000Z"
+        },
+        {
+            "title": "Echo Point Nova v1.12",
+            "uris": [
+                "magnet:?xt=urn:btih:47BF57A6E182CE6322562B8E661305A8ED676CA7&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Echo%20Point%20Nova%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%205%5D%20(2024%2C%20FPS)%20(1.12)%20%5BPortable%5D"
+            ],
+            "fileSize": "2.92 GB",
+            "uploadDate": "2024-10-04T21:13:00.000Z"
+        },
+        {
+            "title": "Potion Tycoon v1.0.6 + DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:61437EB8B189E5FA77DF460F64437564086630E6&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Potion%20Tycoon%20%2F%20%D0%9C%D0%B0%D0%B3%D0%BD%D0%B0%D1%82%20%D0%B7%D0%B5%D0%BB%D1%8C%D0%B5%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%5BL%5D%20%5BRUS%20%2B%20ENG%208%5D%20(2024%2C%20Simulation)%20(1.0.6%20%2B%20DLC)%20%5BGOG%5D"
+            ],
+            "fileSize": "899.9 MB",
+            "uploadDate": "2024-10-04T21:33:00.000Z"
+        },
+        {
+            "title": "Metal: Hellsinger VR v1.02 + 3 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:41EEC7FC9F4F9A784905EB337AD65FFFBE1EFA34&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Metal%3A%20Hellsinger%20VR%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20FPS%2C%20VR%20Only)%20(1.02%20%2B%203%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "11.32 GB",
+            "uploadDate": "2024-10-04T22:54:00.000Z"
+        },
+        {
+            "title": "Until Dawn",
+            "uris": [
+                "magnet:?xt=urn:btih:641207D89466935399401D190D7A7C5C8D2EC3DB&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Until%20Dawn%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2018%20%2F%20RUS%20%2B%20ENG%20%2B%209%5D%20(2024%2C%20Horror)%20(build%2015896519)%20%5BPortable%5D"
+            ],
+            "fileSize": "59.26 GB",
+            "uploadDate": "2024-10-04T23:13:00.000Z"
+        },
+        {
+            "title": "Hell of an Office",
+            "uris": [
+                "magnet:?xt=urn:btih:1CD62C52E7A9705C4CEADBF8E11AA38247BF6686&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Hell%20of%20an%20Office%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20FPS)%20%5BScene%5D"
+            ],
+            "fileSize": "8.97 GB",
+            "uploadDate": "2024-10-05T16:17:00.000Z"
+        },
+        {
+            "title": " Guardians of the Sanctree",
+            "uris": [
+                "magnet:?xt=urn:btih:7D16C0A21D77D3823F3976FD56F46630BFF5DE68&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Guardians%20of%20the%20Sanctree%20%2F%20%E4%BB%80%E4%B9%88%E9%B8%9F%E9%83%BD%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%206%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "684.9 MB",
+            "uploadDate": "2024-10-05T17:02:00.000Z"
+        },
+        {
+            "title": "Gunsmith Simulator",
+            "uris": [
+                "magnet:?xt=urn:btih:F0983B4621DC1D9C4024FC81FBA969FD21B06525&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Gunsmith%20Simulator%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2014%5D%20(2024%2C%20Simulation)%20%5BScene%5D"
+            ],
+            "fileSize": "10.14 GB",
+            "uploadDate": "2024-10-04T21:39:00.000Z"
         }
     ]
 }
