@@ -1490,12 +1490,12 @@
             "uploadDate": "2023-11-20T19:25:00.000Z"
         },
         {
-            "title": "Zoochosis v1.2.3",
+            "title": "Zoochosis v1.36",
             "uris": [
-                "magnet:?xt=urn:btih:A42D83C241FDE9E92281A8AD9A94B14423F3D085&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Zoochosis%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%2F%20ENG%5D%20(2024%2C%20Horror)%20(1.2.3)%20%5BPortable%5D"
+                "magnet:?xt=urn:btih:83CA7560EBF823362FED0548B22FC76AEB4290E2&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Zoochosis%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2013%20%2F%20ENG%5D%20(2024%2C%20Horror)%20(1.36)%20%5BPortable%5D"
             ],
-            "fileSize": "6.52 GB",
-            "uploadDate": "2024-09-30T20:37:00.000Z"
+            "fileSize": "6.57 GB",
+            "uploadDate": "2024-10-16T19:54:00.000Z"
         },
         {
             "title": "Sword Art Online Fractured Daydream",
@@ -1760,6 +1760,390 @@
             ],
             "fileSize": "308.7 MB",
             "uploadDate": "2024-10-13T20:01:00.000Z"
+        },
+        {
+            "title": "Euro Truck Simulator v1.3",
+            "uris": [
+                "magnet:?xt=urn:btih:BFJR64VYNZX6KGXRDDPA5OOZUMO27NQA&dn=Euro%20Truck%20Simulator%20-%20%D0%A1%20%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BC%20%D0%BF%D0%BE%20%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%20(2008)%20%5BRu-Multi%5D%20(1.3)%20SteamRip%20R.G.%20Games&tr=udp%3A%2F%2Fshubt.net%3A2710"
+            ],
+            "fileSize": "131.4 MB",
+            "uploadDate": "2014-06-04T14:58:00.000Z"
+        },
+        {
+            "title": "Euro Truck Simulator 2 v1.52.0.0s",
+            "uris": [
+                "magnet:?xt=urn:btih:JEQRM3WWLENW7W2EM2UXXNXXKFBEFCKK&dn=Euro%20Truck%20Simulator%202%20(2012)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+            ],
+            "fileSize": "29.08 GB",
+            "uploadDate": "2024-10-16T21:52:00.000Z"
+        },
+        {
+            "title": "Drova - Forsaken Kin v1.0.1",
+            "uris": [
+                "magnet:?xt=urn:btih:AB16FC2E37F0CA1500C758F3F7AAF8D65CF95F1C&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Drova%20-%20Forsaken%20Kin%20%5BP%5D%20%5BENG%20%2B%202%5D%20(2024%2C%20RPG)%20(1.0.1)%20%5BScene%5D"
+            ],
+            "fileSize": "1.37 GB",
+            "uploadDate": "2024-10-15T19:11:00.000Z"
+        },
+        {
+            "title": "Neva v1.0.1",
+            "uris": [
+                "magnet:?xt=urn:btih:D0804CA346DBE8F48FF872E416816DA34D75CA20&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Neva%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%5D%20(2024%2C%20Arcade)%20(1.0.1)%20%5BP2P%5D"
+            ],
+            "fileSize": "5.49 GB",
+            "uploadDate": "2024-10-19T17:05:00.000Z"
+        },
+        {
+            "title": "Europa build 16022486",
+            "uris": [
+                "magnet:?xt=urn:btih:3FD5B682135C48BD6E855D1A58168A63CC5B5456&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Europa%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%208%20%2F%20ENG%5D%20(2024%2C%20Adventure)%20(build%2016022486)%20%5BP2P%5D"
+            ],
+            "fileSize": "1.64 GB",
+            "uploadDate": "2024-10-16T13:24:00.000Z"
+        },
+        {
+            "title": "Glitchpunk v1.0.7",
+            "uris": [
+                "magnet:?xt=urn:btih:8129DBA183FD3A75AD1CD3EF12F4053973491D7B&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Glitchpunk%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%205%5D%20(2024%2C%20Arcade)%20(1.0.7)%20%5BScene%5D"
+            ],
+            "fileSize": "5.78 GB",
+            "uploadDate": "2024-10-16T22:52:00.000Z"
+        },
+        {
+            "title": "Arsene Lupin - Once a Thief",
+            "uris": [
+                "magnet:?xt=urn:btih:67645B6CD0148EA657AB46DB081534370CCB3697&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Arsene%20Lupin%20-%20Once%20a%20Thief%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%207%20%2F%20ENG%20%2B%20FRA%5D%20(2024%2C%20Adventure)%20%5BScene%5D"
+            ],
+            "fileSize": "3.38 GB",
+            "uploadDate": "2024-10-17T13:06:00.000Z"
+        },
+        {
+            "title": "MechWarrior 5: Clans v1.0.69 + 2 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:09FB6496D70DAFAC1D5BC7E362E665C015E66244&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20MechWarrior%205%3A%20Clans%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%203%20%2F%20ENG%5D%20(2024%2C%20FPS)%20(1.0.69%20%2B%202%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "66.83 GB",
+            "uploadDate": "2024-10-24T19:45:00.000Z"
+        },
+        {
+            "title": "Bad Parenting 1: Mr. Red Face Build 15976060",
+            "uris": [
+                "magnet:?xt=urn:btih:74CF7E058636D7BD210FE5455E9653785DD3077D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Bad%20Parenting%201%3A%20Mr.%20Red%20Face%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20Horror)%20(Build%2015976060)%20%5BPortable%5D"
+            ],
+            "fileSize": "217.7 MB",
+            "uploadDate": "2024-10-17T17:30:00.000Z"
+        },
+        {
+            "title": "A Quiet Place: The Road Ahead v1.0.0.45388.11477 + 1 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:B751E0F8FC17EDA7A4066B8692ACD4AABB10A886&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20A%20Quiet%20Place%3A%20The%20Road%20Ahead%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%207%20%2F%20ENG%5D%20(2024%2C%20Action)%20(1.0.0.45388.11477%20%2B%201%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "37.68 GB",
+            "uploadDate": "2024-10-19T10:28:00.000Z"
+        },
+        {
+            "title": "Unknown 9: Awakening Build 16069251 + 5 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:77FBC6D79DD162C3820AD7C50F0DDDDBEF9693C5&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Unknown%209%3A%20Awakening%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%20%2B%206%5D%20(2024%2C%20Action)%20(Build%2016069251%20%2B%205%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "34.27 GB",
+            "uploadDate": "2024-10-18T03:04:00.000Z"
+        },
+        {
+            "title": "Metaphor ReFantazio v1.02 + DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:1D798CA389D0CB303F222ACD7FF9825315C423E6&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Metaphor%20ReFantazio%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%20%2B%20JPN%5D%20(2024%2C%20RPG)%20(1.02%20%2B%20DLC)%20%5BP2P%5D"
+            ],
+            "fileSize": "29.77 GB",
+            "uploadDate": "2024-10-24T13:25:00.000Z"
+        },
+        {
+            "title": "Webfishing Build 16075452",
+            "uris": [
+                "magnet:?xt=urn:btih:9AB513631362D6BE5C2748AF5CE76F452034638E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Webfishing%20%5BP%5D%20%5BENG%5D%20(2024%2C%20Simulation)%20(Build%2016075452)%20%5BPortable%5D"
+            ],
+            "fileSize": "75.5 MB",
+            "uploadDate": "2024-10-18T17:40:00.000Z"
+        },
+        {
+            "title": "Killing Time: Resurrected",
+            "uris": [
+                "magnet:?xt=urn:btih:EBF4835FF33DCDD17AE68ACE38BEF1E3AEF35289&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Killing%20Time%3A%20Resurrected%20%5BL%5D%20%5BENG%20%2B%204%20%2F%20ENG%5D%20(2024%2C%20Action)%20%5BGOG%5D"
+            ],
+            "fileSize": "1.91 GB",
+            "uploadDate": "2024-10-18T22:16:00.000Z"
+        },
+        {
+            "title": "Citadelum",
+            "uris": [
+                "magnet:?xt=urn:btih:16ABEDF8B6E3CCB19E5EEAE25B627C92D47E6C0C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Citadelum%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%205%20%2F%20ENG%5D%20(2024%2C%20Simulation)%20%5BPortable%5D"
+            ],
+            "fileSize": "2.23 GB",
+            "uploadDate": "2024-10-19T14:23:00.000Z"
+        },
+        {
+            "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed build 16053537 [Portable]",
+            "uris": [
+                "magnet:?xt=urn:btih:4C700ECBEEAE670C6DCDF948D41E154BA36C96F3&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Teenage%20Mutant%20Ninja%20Turtles%3A%20Mutants%20Unleashed%20%5BP%5D%20%5BENG%20%2B%2015%20%2F%20ENG%20%2B%204%5D%20(2024%2C%20Arcade)%20(build%2016053537)%20%5BPortable%5D"
+            ],
+            "fileSize": "27.32 GB",
+            "uploadDate": "2024-10-19T22:21:00.000Z"
+        },
+        {
+            "title": "Dragon Quest Monsters : The Dark Prince v1.0.1",
+            "uris": [
+                "magnet:?xt=urn:btih:687414FD41210347EDAB1FB4FB12706085321FB6&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Dragon%20Quest%20Monsters%3A%20The%20Dark%20Prince%20%5BP%5D%20%5BENG%20%2B%208%20%2F%20ENG%20%2B%20JPN%5D%20(2024%2C%20RPG%2C%20JRPG)%20(1.0.1)%20%5BScene%5D"
+            ],
+            "fileSize": "6.68 GB",
+            "uploadDate": "2024-10-20T10:18:00.000Z"
+        },
+        {
+            "title": "Scary Shadow Spot: Last Farewell v1.2.0",
+            "uris": [
+                "magnet:?xt=urn:btih:C13FFDDE0DA7201F98F6F59171EF2AA76088527D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Scary%20Shadow%20Spot%3A%20Last%20Farewell%20%5BP%5D%20%5BENG%20%2B%204%20%2F%20ENG%5D%20(2024%2C%20Horror)%20(1.2.0)%20%5BScene%5D"
+            ],
+            "fileSize": "6.66 GB",
+            "uploadDate": "2024-10-20T22:15:00.000Z"
+        },
+        {
+            "title": "Half Billion: Love Choice v1.0",
+            "uris": [
+                "magnet:?xt=urn:btih:7557047143A2AD785C79044B0D599C5D7929AEA6&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Half%20Billion%3A%20Love%20Choice%20%5BP%5D%20%5BENG%20%2B%205%20%2F%20ZHO%5D%20(2024%2C%20Simulation)%20(1.0)%20%5BScene%5D"
+            ],
+            "fileSize": "26.45 GB",
+            "uploadDate": "2024-10-21T18:28:00.000Z"
+        },
+        {
+            "title": "Arch Legends",
+            "uris": [
+                "magnet:?xt=urn:btih:01CF24660DDCDA9EA57F0813EDC6C16EDCDA2D2E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Arch%20Legends%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%206%20%2F%20ENG%5D%20(2024%2C%20RPG)%20%5BPortable%5D"
+            ],
+            "fileSize": "7.81 GB",
+            "uploadDate": "2024-10-23T12:05:00.000Z"
+        },
+        {
+            "title": "Wayfinder v201773 + 4 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:2154F7DA098B856F36BBC8E20BFC4625936148C7&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Wayfinder%20%5BP%5D%20%5BENG%20%2B%2011%20%2F%20ENG%20%2B%208%5D%20(2024%2C%20RPG)%20(201773%20%2B%204%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "53.57 GB",
+            "uploadDate": "2024-10-22T10:14:00.000Z"
+        },
+        {
+            "title": "It's Only Money v1.0.0-9254 +1 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:0682C784F44639EF45085C1EB2BED3C97F31DAB8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20It's%20Only%20Money%20%5BP%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20TPS)%20(1.0.0-9254%20%2B1%20DLC)%20%5BScene%5D"
+            ],
+            "fileSize": "3.79 GB",
+            "uploadDate": "2024-10-22T16:48:00.000Z"
+        },
+        {
+            "title": "The Axis Unseen v1.01",
+            "uris": [
+                "magnet:?xt=urn:btih:4204E343D9E6619CE22AA2EDDCF867286A68ADE5&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Axis%20Unseen%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2015%5D%20(2024%2C%20Action)%20(1.01)%20%5BPortable%5D"
+            ],
+            "fileSize": "23.56 GB",
+            "uploadDate": "2024-10-22T17:19:00.000Z"
+        },
+        {
+            "title": "RetroRealms Arcade",
+            "uris": [
+                "magnet:?xt=urn:btih:0E39F22BF71DFED815B767D1C25986AB6B4BE226&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20RetroRealms%20Arcade%20%5BP%5D%20%5BENG%20%2B%204%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BP2P%5D"
+            ],
+            "fileSize": "682.5 MB",
+            "uploadDate": "2024-10-22T19:27:00.000Z"
+        },
+        {
+            "title": "Awaken - Astral Blade v202410222004",
+            "uris": [
+                "magnet:?xt=urn:btih:C3C9681DD362A4180873A8A0FECDDA4ED9D82F04&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Awaken%3A%20Astral%20Blade%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20RUS%20%2B%20ENG%20%2B%201%5D%20(2024%2C%20Action)%20(202410222004)%20%5BPortable%5D"
+            ],
+            "fileSize": "5.08 GB",
+            "uploadDate": "2024-10-22T20:43:00.000Z"
+        },
+        {
+            "title": "Hot Wheels Monster Trucks: Stunt Mayhem",
+            "uris": [
+                "magnet:?xt=urn:btih:744F51F73429FCFF3705BE3BA994E6C268C7FE4A&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Hot%20Wheels%20Monster%20Trucks%3A%20Stunt%20Mayhem%20%5BP%5D%20%5BENG%20%2B%206%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "3.22 GB",
+            "uploadDate": "2024-10-23T12:32:00.000Z"
+        },
+        {
+            "title": "Speedollama",
+            "uris": [
+                "magnet:?xt=urn:btih:81C362358B399FB75528A8E747AB36F053A41F83&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Speedollama%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%208%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.2 GB",
+            "uploadDate": "2024-10-23T15:55:00.000Z"
+        },
+        {
+            "title": "fall",
+            "uris": [
+                "magnet:?xt=urn:btih:109AECA51590EA5B1BDC8B8F4784B753F46D9BA8&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20fall%20%2F%20%E6%B2%A6%E9%99%B7%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%20%2B%20JHO%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "9.57 GB",
+            "uploadDate": "2024-10-23T16:34:00.000Z"
+        },
+        {
+            "title": "Five Hearts Under One Roof v16089055",
+            "uris": [
+                "magnet:?xt=urn:btih:AD36EF3CC38A38175D975B94D7870C37DA1FECF5&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Five%20Hearts%20Under%20One%20Roof%20%5BP%5D%20%5BENG%20%2B%203%20%2F%20KOR%5D%20(2024%2C%20Adventure)%20(16089055)%20%5BPortable%5D"
+            ],
+            "fileSize": "31.36 GB",
+            "uploadDate": "2024-10-23T18:06:00.000Z"
+        },
+        {
+            "title": "Shin chan: Shiro and the Coal Town [SCENE]",
+            "uris": [
+                "magnet:?xt=urn:btih:44A013D6D67B0CD3FE5ACD2CE9E087D538A8DCB3&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Shin%20chan%3A%20Shiro%20and%20the%20Coal%20Town%20%5BP%5D%20%5BENG%20%2B%206%20%2F%20JPN%20%2B%203%5D%20(2024%2C%20Adventure)%20%5BScene%5D"
+            ],
+            "fileSize": "4.45 GB",
+            "uploadDate": "2024-10-23T18:35:00.000Z"
+        },
+        {
+            "title": "Old Market Simulator v1.0.2 [PORTABLE]",
+            "uris": [
+                "magnet:?xt=urn:btih:7527F853297ECB33D3A362F6AB5569323254C443&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Old%20Market%20Simulator%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%5D%20(2024%2C%20Simulation)%20(1.0.2)%20%5BPortable%5D"
+            ],
+            "fileSize": "235.4 MB",
+            "uploadDate": "2024-10-23T23:06:00.000Z"
+        },
+        {
+            "title": "Feudal Baron: King's Land v16179231 [Portable]",
+            "uris": [
+                "magnet:?xt=urn:btih:1C67824F365907A5C5F6C1E011586ED3716CD9C3&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Feudal%20Baron%3A%20King's%20Land%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20RTS)%20(16179231)%20%5BPortable%5D"
+            ],
+            "fileSize": "8.02 GB",
+            "uploadDate": "2024-10-25T20:16:00.000Z"
+        },
+        {
+            "title": "Raccoon Roller [SCENE]",
+            "uris": [
+                "magnet:?xt=urn:btih:635E1C6EAC9C23DE2C39F1591881B32E2613D78C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Raccoon%20Roller%20%5BP%5D%20%5BENG%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "852.3 MB",
+            "uploadDate": "2024-10-24T10:03:00.000Z"
+        },
+        {
+            "title": "The World of Kungfu: Dragon and Eagle",
+            "uris": [
+                "magnet:?xt=urn:btih:DCA8B8FBDB1E47DB13EE0E7E86CE87ABFFF895D1&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20the%20world%20of%20kungfu%20dragon%20and%20eagle%20%2F%20%E5%A4%A7%E6%B1%9F%E6%B9%96%E4%B9%8B%E8%8B%8D%E9%BE%99%E4%B8%8E%E7%99%BD%E9%B8%9F%20%5BP%5D%20%5BENG%20%2B%202%5D%20(2024%2C%20RPG%2C%20jRPG)%20%5BPortable%5D"
+            ],
+            "fileSize": "1.05 GB",
+            "uploadDate": "2024-10-24T10:37:00.000Z"
+        },
+        {
+            "title": " ArkCraft: The Rebirth of the World [SCENE]",
+            "uris": [
+                "magnet:?xt=urn:btih:597ECBFB18CEF9770038EE203076F5EE90A75660&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20ArkCraft%3A%20The%20Rebirth%20of%20the%20World%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%5D%20(2024%2C%20TPS)%20%5BScene%5D"
+            ],
+            "fileSize": "8.55 GB",
+            "uploadDate": "2024-10-24T11:24:00.000Z"
+        },
+        {
+            "title": "Fear the Spotlight v1.0 [PORTABLE]",
+            "uris": [
+                "magnet:?xt=urn:btih:0850B6012EC1D73A21A836E920376D8176E5895B&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Fear%20the%20Spotlight%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%209%20%2F%20ENG%5D%20(2024%2C%20Horror)%20(1.0)%20%5BPortable%5D"
+            ],
+            "fileSize": "306.3 MB",
+            "uploadDate": "2024-10-24T19:39:00.000Z"
+        },
+        {
+            "title": "Age of History 3 v1.01 [PORTABLE]",
+            "uris": [
+                "magnet:?xt=urn:btih:9BF0C9FCE09E17EB7EFCA1AE7882003290161469&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Age%20of%20History%203%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2034%5D%20(2024%2C%20TBS)%20(1.01)%20%5BPortable%5D"
+            ],
+            "fileSize": "579.1 MB",
+            "uploadDate": "2024-10-25T09:13:00.000Z"
+        },
+        {
+            "title": "Prim v1.06 [GOG]",
+            "uris": [
+                "magnet:?xt=urn:btih:E34E73AD975B118D7DDEC9CCCB25AB034A3D102C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Prim%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%207%20%2F%20ENG%20%2B%201%5D%20(2024%2C%20Adventure)%20(1.06)%20%5BGOG%5D"
+            ],
+            "fileSize": "925.4 MB",
+            "uploadDate": "2024-10-24T20:35:00.000Z"
+        },
+        {
+            "title": "Kong: Survivor Instinct [SCENE]",
+            "uris": [
+                "magnet:?xt=urn:btih:5AFA11C915F1008FCE89936B51D1E489A7D77748&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Kong%3A%20Survivor%20Instinct%20%5BP%5D%20%5BENG%20%2B%2010%20%2F%20ENG%5D%20(2024%2C%20Arcade)%20%5BScene%5D"
+            ],
+            "fileSize": "6.67 GB",
+            "uploadDate": "2024-10-24T21:19:00.000Z"
+        },
+        {
+            "title": "Forgive Me Father 2 v1.0.0.38f [PORTABLE]",
+            "uris": [
+                "magnet:?xt=urn:btih:5CC42FD6B7E817F530F65DA4E8161075C97D6642&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Forgive%20Me%20Father%202%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%205%20%2F%20ENG%5D%20(2024%2C%20Action)%20(1.0.0.38f)%20%5BPortable%5D"
+            ],
+            "fileSize": "8.01 GB",
+            "uploadDate": "2024-10-25T01:24:00.000Z"
+        },
+        {
+            "title": "Romance Of The Three Kingdoms 8 Remake v1.0.1 + 5 DLC",
+            "uris": [
+                "magnet:?xt=urn:btih:184BCE53BA45CABD1DFB8E82EB75ECCB20928D15&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Romance%20Of%20The%20Three%20Kingdoms%208%20Remake%20%5BP%5D%20%5BENG%20%2B%204%20%2F%20JPN%5D%20(2024%2C%20TBS)%20(1.0.1%20%2B%205%20DLC)%20%5BPortable%5D"
+            ],
+            "fileSize": "11.36 GB",
+            "uploadDate": "2024-10-25T07:39:00.000Z"
+        },
+        {
+            "title": "While We Wait Here",
+            "uris": [
+                "magnet:?xt=urn:btih:7F48E67045DCD66604C94D0ABC38C81162A07B0E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20While%20We%20Wait%20Here%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2013%20%2F%20ENG%5D%20(2024%2C%20Horror)%20%5BPortable%5D"
+            ],
+            "fileSize": "2.68 GB",
+            "uploadDate": "2024-10-25T11:26:00.000Z"
+        },
+        {
+            "title": "Fight To The Death [PORTABLE]",
+            "uris": [
+                "magnet:?xt=urn:btih:E667734B41D42045DA66D23C3AE2CD0DB5CB58AD&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Fight%20To%20The%20Death%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%207%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "475.8 MB",
+            "uploadDate": "2024-10-25T12:48:00.000Z"
+        },
+        {
+            "title": "The Smurfs - Dreams v0.0.17 + 2 DLC [GOG]",
+            "uris": [
+                "magnet:?xt=urn:btih:E5137694C332D4A71CEBBEF09C2B633038C5F9DE&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20The%20Smurfs%20Dreams%20%5BL%5D%20%5BRUS%20%2B%20ENG%20%2B%2012%5D%20(2024%2C%20Arcade)%20(0.0.17%20%2B%202%20DLC)%20%5BGOG%5D"
+            ],
+            "fileSize": "3.74 GB",
+            "uploadDate": "2024-10-25T16:38:00.000Z"
+        },
+        {
+            "title": "Ys X: Nordics [SCENE]",
+            "uris": [
+                "magnet:?xt=urn:btih:0E1A0E32473C176B3EF21A09610DA5552B75011B&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Ys%20X%3A%20(10)%20Nordics%20%5BP%5D%20%5BENG%20%2B%20JPN%20%2B%201%20%2F%20ENG%20%2B%20JPN%5D%20(2024%2C%20RPG%2C%20jRPG)%20%5BScene%5D"
+            ],
+            "fileSize": "6.66 GB",
+            "uploadDate": "2024-10-25T21:42:00.000Z"
+        },
+        {
+            "title": "Homeworld 3 - Fleet Command Edition v1.22-CL363716 [Portable]",
+            "uris": [
+                "magnet:?xt=urn:btih:49DCAB88EFC06A3A8100CA3BCD7C92A37922DDC5&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Homeworld%203%20%5BP%5D%20%5BRUS%20%2B%20ENG%20%2B%2011%20%2F%20ENG%5D%20(2024%2C%20RTS)%20(1.22-CL363716)%20%5BPortable%5D"
+            ],
+            "fileSize": "33.75 GB",
+            "uploadDate": "2024-10-25T23:59:00.000Z"
+        },
+        {
+            "title": "Arisen Force: HeroTest",
+            "uris": [
+                "magnet:?xt=urn:btih:3E0D666EC2DC95D583DB7C2585F8826D66DB077A&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Arisen%20Force%3A%20HeroTest%20%5BP%5D%20%5BENG%20%2B%203%5D%20(2024%2C%20Arcade)%20%5BPortable%5D"
+            ],
+            "fileSize": "3.3 GB",
+            "uploadDate": "2024-10-26T12:28:00.000Z"
+        },
+        {
+            "title": "Franchise Hockey Manager 11 v11.1 Build 7 [Portable]",
+            "uris": [
+                "magnet:?xt=urn:btih:433B421B017798D373B0C8841C015A1DE7455A72&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Franchise%20Hockey%20Manager%2011%20%5BP%5D%20%5BENG%5D%20(2024%2C%20TBS)%20(11.1%20Build%207)%20%5BPortable%5D"
+            ],
+            "fileSize": "785.1 MB",
+            "uploadDate": "2024-10-26T13:50:00.000Z"
         }
     ]
 }
