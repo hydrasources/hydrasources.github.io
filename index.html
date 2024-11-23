@@ -1,251 +1,79 @@
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Source for Hydra Launcher</title>
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<style>
-    body {
-        background-color: #1c1c1c;
-        color: #e0e0e0;
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-    .container {
-        text-align: center;
-    }
-    .btn {
-        background-color: #2d2d2d;
-        color: #ffffff;
-        border: 2px solid #4a4a4a;
-        border-radius: 25px;
-        padding: 15px 30px;
-        margin: 10px;
-        font-size: 18px;
-        cursor: pointer;
-        transition: all 0.3s;
-    }
-    .btn:hover {
-        background-color: #3d3d3d;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    }
-    h1 {
-        color: #ffffff;
-        margin-bottom: 30px;
-    }
-    .toggle-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    .toggle {
-        position: relative;
-        display: inline-block;
-        width: 60px;
-        height: 34px;
-        margin: 0 10px;
-    }
-    .toggle input {
-        opacity: 0;
-        width: 0;
-        height: 0;
-    }
-    .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #2d2d2d;
-        transition: .4s;
-        border-radius: 34px;
-        border: 2px solid #4a4a4a;
-    }
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 26px;
-        width: 26px;
-        left: 2px;
-        bottom: 2px;
-        background-color: white;
-        transition: .4s;
-        border-radius: 50%;
-    }
-    input:checked + .slider {
-        background-color: #3d3d3d;
-    }
-    input:checked + .slider:before {
-        transform: translateX(26px);
-    }
-    .lang-label {
-        font-size: 16px;
-        user-select: none;
-    }
-	
-    .telegram-icon {
-        width: 40px;
-        height: 40px;
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-</style>
-</head>
-<body>
-    <div class="container">
-        <div class="toggle-container">
-            <span class="lang-label" id="enLabel">EN</span>
-            <label class="toggle">
-                <input type="checkbox" id="langToggle">
-                <span class="slider"></span>
-            </label>
-            <span class="lang-label" id="ruLabel">RU</span>
-        </div>
-        <h1 id="title">Hydrasources</h1>
-        <p id="text">Torrent links for Hydra Launcher</p>
-        <p id="update">Last Updated: <span id="date">Loading...</span></p>
-        <button id="installBtn" class="btn">Install to Hydra</button>
-        <button id="copyBtn" class="btn">Copy Link</button>
+<html><head><base href="." /><title>Domain Change Notice</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+body {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    font-family: 'Fira Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.notice {
+    background: #2d2d2d;
+    border-radius: 25px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #4a4a4a;
+    animation: fadeIn 1s ease-in;
+    max-width: 600px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.domain {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1rem 0;
+}
+.details {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+.warning {
+    color: #FFA726;
+    font-style: italic;
+    margin: 1rem 0;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.btn {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 2px solid #4a4a4a;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover {
+    background-color: #3d3d3d;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+</style></head><body>
+<div class="container">
+    <div class="notice">
+        <h1>Important Notice: Domain Change</h1>
+        <p class="details">We've moved to our new domain:</p>
+        <p class="domain">hydrasources.su</p>
+        <p class="details">Please update the sources, you can take the link on the new domain. This page will no longer be supported!</p>
     </div>
-
-    <a href="https://t.me/hydrasourcesINFO" target="_blank">
-        <svg class="telegram-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="12" fill="#FFFFFF"/>
-            <path d="M5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" fill="#29B6F6"/>
-        </svg>
-    </a>
-<script>
-const installBtn = document.getElementById('installBtn');
-const copyBtn = document.getElementById('copyBtn');
-const title = document.getElementById('title');
-const langToggle = document.getElementById('langToggle');
-const enLabel = document.getElementById('enLabel');
-const ruLabel = document.getElementById('ruLabel');
-const dateElement = document.getElementById('date');
-const updateElement = document.getElementById('update');
-const copyLink = 'https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
-let installLink = 'hydralauncher://install-source?urls=https://raw.githubusercontent.com/hydrasources/hydrasources.github.io/main/hydra.json';
-
-const texts = {
-    en: {
-        title: "Hydrasources",
-        text: "Torrent links for Hydra Launcher",
-        update: "Last updated: ",
-        install: "Install to Hydra",
-        copy: "Copy Link",
-        copied: "Link copied to clipboard!",
-        installError: "Installation link is not set yet.",
-        pageTitle: "Source for Hydra Launcher"  // English title for the webpage
-    },
-    ru: {
-        title: "Hydrasources",
-        text: "Торрент-ссылки для Hydra Launcher",
-        update: "Последнее обновление: ",
-        install: "Установить в Гидру",
-        copy: "Скопировать ссылку",
-        copied: "Ссылка скопирована в буфер обмена!",
-        installError: "Ссылка для установки еще не установлена.",
-        pageTitle: "Источник для Hydra Launcher"  // Russian title for the webpage
-    }
-};
-
-function setLanguage(isRussian) {
-    const lang = isRussian ? 'ru' : 'en';
-    title.textContent = texts[lang].title;
-    document.getElementById('text').textContent = texts[lang].text;
-    installBtn.textContent = texts[lang].install;
-    copyBtn.textContent = texts[lang].copy;
-    updateElement.textContent = texts[lang].update; // Update the "Last updated" text
-    enLabel.style.fontWeight = isRussian ? 'normal' : 'bold';
-    ruLabel.style.fontWeight = isRussian ? 'bold' : 'normal';
-    langToggle.checked = isRussian;
-    
-    // Change the title of the page
-    document.title = texts[lang].pageTitle;
-
-    // Re-fetch and format the date based on the selected language
-    fetchGitHubDate(lang);
-}
-
-function detectUserLanguage() {
-    const userLang = navigator.language || navigator.userLanguage;
-    if (userLang.startsWith('ru')) {
-        setLanguage(true);  // Set to Russian
-    } else {
-        setLanguage(false); // Set to English
-    }
-}
-
-langToggle.addEventListener('change', (e) => {
-    setLanguage(e.target.checked);
-});
-
-installBtn.addEventListener('click', () => {
-    if (installLink) {
-        window.location.href = installLink;
-    } else {
-        alert(langToggle.checked ? texts.ru.installError : texts.en.installError);
-    }
-});
-
-copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(copyLink).then(() => {
-        alert(langToggle.checked ? texts.ru.copied : texts.en.copied);
-    }).catch(err => {
-        console.error('Error copying: ', err);
-    });
-});
-
-function setInstallLink(link) {
-    installLink = link;
-}
-
-function fetchGitHubDate(lang) {
-    fetch('https://api.github.com/repos/hydrasources/hydrasources.github.io/commits?path=hydra.json')
-        .then(response => response.json())
-        .then(commits => {
-            if (commits.length > 0) {
-                const latestCommit = commits[0];
-                if (latestCommit) {
-                    const commitDate = new Date(latestCommit.commit.committer.date);
-                    
-                    // Format the date based on the selected language
-                    const formattedDate = lang === 'ru'
-                        ? `${commitDate.getDate().toString().padStart(2, '0')}/${commitDate.getMonth().toString().padStart(2, '0')}/${commitDate.getFullYear().toString().padStart(4, '0')}`
-                        : `${commitDate.getMonth().toString().padStart(2, '0')}/${commitDate.getDate().toString().padStart(2, '0')}/${commitDate.getFullYear().toString().padStart(4, '0')}`;
-                    
-                    // Update the text of the updateElement
-                    updateElement.textContent = lang === 'ru' ? `Последнее обновление: ${formattedDate}` : `Last updated: ${formattedDate}`;
-                    
-                    dateElement.textContent = formattedDate;
-                } else {
-                    dateElement.textContent = lang === 'ru' ? 'Нет коммитов' : 'No commits found';
-                }
-            } else {
-                dateElement.textContent = lang === 'ru' ? 'Нет коммитов' : 'No commits found';
-            }
-        })
-        .catch(error => {
-            console.error('Error fetching commit date:', error);
-            dateElement.textContent = lang === 'ru' ? 'Ошибка загрузки даты' : 'Error loading date';
-        });
-}
-
-
-// Automatically detect and set the language when the page loads
-detectUserLanguage();
-</script>
-
-</body>
-</html>
+</div>
+</body></html>
